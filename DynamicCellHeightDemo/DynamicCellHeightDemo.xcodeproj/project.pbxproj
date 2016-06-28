@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181913F71D1FE61600EBE46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181913F61D1FE61600EBE46A /* main.m */; };
+		181913FA1D1FE61600EBE46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181913F91D1FE61600EBE46A /* AppDelegate.m */; };
+		181913FD1D1FE61600EBE46A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181913FC1D1FE61600EBE46A /* ViewController.m */; };
+		181914001D1FE61600EBE46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181913FE1D1FE61600EBE46A /* Main.storyboard */; };
+		181914021D1FE61600EBE46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181914011D1FE61600EBE46A /* Assets.xcassets */; };
+		181914051D1FE61600EBE46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181914031D1FE61600EBE46A /* LaunchScreen.storyboard */; };
+		181914101D1FE61600EBE46A /* DynamicCellHeightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819140F1D1FE61600EBE46A /* DynamicCellHeightDemoTests.m */; };
+		1819141B1D1FE61600EBE46A /* DynamicCellHeightDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819141A1D1FE61600EBE46A /* DynamicCellHeightDemoUITests.m */; };
+		1819142B1D1FE65A00EBE46A /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181914291D1FE65A00EBE46A /* TestCell.m */; settings = {ASSET_TAGS = (); }; };
+		1819142C1D1FE65A00EBE46A /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1819142A1D1FE65A00EBE46A /* TestCell.xib */; settings = {ASSET_TAGS = (); }; };
+		1819142F1D1FEF5600EBE46A /* Method3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819142E1D1FEF5600EBE46A /* Method3ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		181914361D1FF1A200EBE46A /* Method3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181914341D1FF1A200EBE46A /* Method3TableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		181914371D1FF1A200EBE46A /* Method3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181914351D1FF1A200EBE46A /* Method3TableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1819140C1D1FE61600EBE46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181913EA1D1FE61600EBE46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181913F11D1FE61600EBE46A;
+			remoteInfo = DynamicCellHeightDemo;
+		};
+		181914171D1FE61600EBE46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181913EA1D1FE61600EBE46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181913F11D1FE61600EBE46A;
+			remoteInfo = DynamicCellHeightDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181913F21D1FE61600EBE46A /* DynamicCellHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCellHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181913F61D1FE61600EBE46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181913F81D1FE61600EBE46A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181913F91D1FE61600EBE46A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181913FB1D1FE61600EBE46A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181913FC1D1FE61600EBE46A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181913FF1D1FE61600EBE46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181914011D1FE61600EBE46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181914041D1FE61600EBE46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181914061D1FE61600EBE46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1819140B1D1FE61600EBE46A /* DynamicCellHeightDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCellHeightDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1819140F1D1FE61600EBE46A /* DynamicCellHeightDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCellHeightDemoTests.m; sourceTree = "<group>"; };
+		181914111D1FE61600EBE46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181914161D1FE61600EBE46A /* DynamicCellHeightDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCellHeightDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1819141A1D1FE61600EBE46A /* DynamicCellHeightDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCellHeightDemoUITests.m; sourceTree = "<group>"; };
+		1819141C1D1FE61600EBE46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181914281D1FE65A00EBE46A /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		181914291D1FE65A00EBE46A /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		1819142A1D1FE65A00EBE46A /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		1819142D1D1FEF5600EBE46A /* Method3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Method3ViewController.h; sourceTree = "<group>"; };
+		1819142E1D1FEF5600EBE46A /* Method3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Method3ViewController.m; sourceTree = "<group>"; };
+		181914331D1FF1A200EBE46A /* Method3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Method3TableViewCell.h; sourceTree = "<group>"; };
+		181914341D1FF1A200EBE46A /* Method3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Method3TableViewCell.m; sourceTree = "<group>"; };
+		181914351D1FF1A200EBE46A /* Method3TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Method3TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181913EF1D1FE61600EBE46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181914081D1FE61600EBE46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181914131D1FE61600EBE46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181913E91D1FE61600EBE46A = {
+			isa = PBXGroup;
+			children = (
+				181913F41D1FE61600EBE46A /* DynamicCellHeightDemo */,
+				1819140E1D1FE61600EBE46A /* DynamicCellHeightDemoTests */,
+				181914191D1FE61600EBE46A /* DynamicCellHeightDemoUITests */,
+				181913F31D1FE61600EBE46A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181913F31D1FE61600EBE46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181913F21D1FE61600EBE46A /* DynamicCellHeightDemo.app */,
+				1819140B1D1FE61600EBE46A /* DynamicCellHeightDemoTests.xctest */,
+				181914161D1FE61600EBE46A /* DynamicCellHeightDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181913F41D1FE61600EBE46A /* DynamicCellHeightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				181914331D1FF1A200EBE46A /* Method3TableViewCell.h */,
+				181914341D1FF1A200EBE46A /* Method3TableViewCell.m */,
+				181914351D1FF1A200EBE46A /* Method3TableViewCell.xib */,
+				1819142D1D1FEF5600EBE46A /* Method3ViewController.h */,
+				1819142E1D1FEF5600EBE46A /* Method3ViewController.m */,
+				181914281D1FE65A00EBE46A /* TestCell.h */,
+				181914291D1FE65A00EBE46A /* TestCell.m */,
+				1819142A1D1FE65A00EBE46A /* TestCell.xib */,
+				181913F81D1FE61600EBE46A /* AppDelegate.h */,
+				181913F91D1FE61600EBE46A /* AppDelegate.m */,
+				181913FB1D1FE61600EBE46A /* ViewController.h */,
+				181913FC1D1FE61600EBE46A /* ViewController.m */,
+				181913FE1D1FE61600EBE46A /* Main.storyboard */,
+				181914011D1FE61600EBE46A /* Assets.xcassets */,
+				181914031D1FE61600EBE46A /* LaunchScreen.storyboard */,
+				181914061D1FE61600EBE46A /* Info.plist */,
+				181913F51D1FE61600EBE46A /* Supporting Files */,
+			);
+			path = DynamicCellHeightDemo;
+			sourceTree = "<group>";
+		};
+		181913F51D1FE61600EBE46A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181913F61D1FE61600EBE46A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1819140E1D1FE61600EBE46A /* DynamicCellHeightDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1819140F1D1FE61600EBE46A /* DynamicCellHeightDemoTests.m */,
+				181914111D1FE61600EBE46A /* Info.plist */,
+			);
+			path = DynamicCellHeightDemoTests;
+			sourceTree = "<group>";
+		};
+		181914191D1FE61600EBE46A /* DynamicCellHeightDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1819141A1D1FE61600EBE46A /* DynamicCellHeightDemoUITests.m */,
+				1819141C1D1FE61600EBE46A /* Info.plist */,
+			);
+			path = DynamicCellHeightDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181913F11D1FE61600EBE46A /* DynamicCellHeightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1819141F1D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemo" */;
+			buildPhases = (
+				181913EE1D1FE61600EBE46A /* Sources */,
+				181913EF1D1FE61600EBE46A /* Frameworks */,
+				181913F01D1FE61600EBE46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicCellHeightDemo;
+			productName = DynamicCellHeightDemo;
+			productReference = 181913F21D1FE61600EBE46A /* DynamicCellHeightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1819140A1D1FE61600EBE46A /* DynamicCellHeightDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181914221D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemoTests" */;
+			buildPhases = (
+				181914071D1FE61600EBE46A /* Sources */,
+				181914081D1FE61600EBE46A /* Frameworks */,
+				181914091D1FE61600EBE46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1819140D1D1FE61600EBE46A /* PBXTargetDependency */,
+			);
+			name = DynamicCellHeightDemoTests;
+			productName = DynamicCellHeightDemoTests;
+			productReference = 1819140B1D1FE61600EBE46A /* DynamicCellHeightDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181914151D1FE61600EBE46A /* DynamicCellHeightDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181914251D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemoUITests" */;
+			buildPhases = (
+				181914121D1FE61600EBE46A /* Sources */,
+				181914131D1FE61600EBE46A /* Frameworks */,
+				181914141D1FE61600EBE46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181914181D1FE61600EBE46A /* PBXTargetDependency */,
+			);
+			name = DynamicCellHeightDemoUITests;
+			productName = DynamicCellHeightDemoUITests;
+			productReference = 181914161D1FE61600EBE46A /* DynamicCellHeightDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181913EA1D1FE61600EBE46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = GJ;
+				TargetAttributes = {
+					181913F11D1FE61600EBE46A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					1819140A1D1FE61600EBE46A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 181913F11D1FE61600EBE46A;
+					};
+					181914151D1FE61600EBE46A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 181913F11D1FE61600EBE46A;
+					};
+				};
+			};
+			buildConfigurationList = 181913ED1D1FE61600EBE46A /* Build configuration list for PBXProject "DynamicCellHeightDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181913E91D1FE61600EBE46A;
+			productRefGroup = 181913F31D1FE61600EBE46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181913F11D1FE61600EBE46A /* DynamicCellHeightDemo */,
+				1819140A1D1FE61600EBE46A /* DynamicCellHeightDemoTests */,
+				181914151D1FE61600EBE46A /* DynamicCellHeightDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181913F01D1FE61600EBE46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181914371D1FF1A200EBE46A /* Method3TableViewCell.xib in Resources */,
+				181914051D1FE61600EBE46A /* LaunchScreen.storyboard in Resources */,
+				1819142C1D1FE65A00EBE46A /* TestCell.xib in Resources */,
+				181914021D1FE61600EBE46A /* Assets.xcassets in Resources */,
+				181914001D1FE61600EBE46A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181914091D1FE61600EBE46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181914141D1FE61600EBE46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181913EE1D1FE61600EBE46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819142F1D1FEF5600EBE46A /* Method3ViewController.m in Sources */,
+				181913FD1D1FE61600EBE46A /* ViewController.m in Sources */,
+				181914361D1FF1A200EBE46A /* Method3TableViewCell.m in Sources */,
+				1819142B1D1FE65A00EBE46A /* TestCell.m in Sources */,
+				181913FA1D1FE61600EBE46A /* AppDelegate.m in Sources */,
+				181913F71D1FE61600EBE46A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181914071D1FE61600EBE46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181914101D1FE61600EBE46A /* DynamicCellHeightDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181914121D1FE61600EBE46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819141B1D1FE61600EBE46A /* DynamicCellHeightDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1819140D1D1FE61600EBE46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181913F11D1FE61600EBE46A /* DynamicCellHeightDemo */;
+			targetProxy = 1819140C1D1FE61600EBE46A /* PBXContainerItemProxy */;
+		};
+		181914181D1FE61600EBE46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181913F11D1FE61600EBE46A /* DynamicCellHeightDemo */;
+			targetProxy = 181914171D1FE61600EBE46A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181913FE1D1FE61600EBE46A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181913FF1D1FE61600EBE46A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181914031D1FE61600EBE46A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181914041D1FE61600EBE46A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1819141D1D1FE61600EBE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1819141E1D1FE61600EBE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181914201D1FE61600EBE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicCellHeightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gj.DynamicCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181914211D1FE61600EBE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicCellHeightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gj.DynamicCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181914231D1FE61600EBE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicCellHeightDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gj.DynamicCellHeightDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCellHeightDemo.app/DynamicCellHeightDemo";
+			};
+			name = Debug;
+		};
+		181914241D1FE61600EBE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicCellHeightDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gj.DynamicCellHeightDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCellHeightDemo.app/DynamicCellHeightDemo";
+			};
+			name = Release;
+		};
+		181914261D1FE61600EBE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DynamicCellHeightDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gj.DynamicCellHeightDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DynamicCellHeightDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		181914271D1FE61600EBE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DynamicCellHeightDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gj.DynamicCellHeightDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DynamicCellHeightDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181913ED1D1FE61600EBE46A /* Build configuration list for PBXProject "DynamicCellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819141D1D1FE61600EBE46A /* Debug */,
+				1819141E1D1FE61600EBE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1819141F1D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181914201D1FE61600EBE46A /* Debug */,
+				181914211D1FE61600EBE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181914221D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181914231D1FE61600EBE46A /* Debug */,
+				181914241D1FE61600EBE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181914251D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181914261D1FE61600EBE46A /* Debug */,
+				181914271D1FE61600EBE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181913EA1D1FE61600EBE46A /* Project object */;
+}
