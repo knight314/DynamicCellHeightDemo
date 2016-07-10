@@ -15,11 +15,25 @@
 		181914051D1FE61600EBE46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181914031D1FE61600EBE46A /* LaunchScreen.storyboard */; };
 		181914101D1FE61600EBE46A /* DynamicCellHeightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819140F1D1FE61600EBE46A /* DynamicCellHeightDemoTests.m */; };
 		1819141B1D1FE61600EBE46A /* DynamicCellHeightDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819141A1D1FE61600EBE46A /* DynamicCellHeightDemoUITests.m */; };
-		1819142B1D1FE65A00EBE46A /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181914291D1FE65A00EBE46A /* TestCell.m */; settings = {ASSET_TAGS = (); }; };
-		1819142C1D1FE65A00EBE46A /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1819142A1D1FE65A00EBE46A /* TestCell.xib */; settings = {ASSET_TAGS = (); }; };
-		1819142F1D1FEF5600EBE46A /* Method3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819142E1D1FEF5600EBE46A /* Method3ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		181914361D1FF1A200EBE46A /* Method3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181914341D1FF1A200EBE46A /* Method3TableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		181914371D1FF1A200EBE46A /* Method3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181914351D1FF1A200EBE46A /* Method3TableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		1819142B1D1FE65A00EBE46A /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181914291D1FE65A00EBE46A /* TestCell.m */; };
+		1819142C1D1FE65A00EBE46A /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1819142A1D1FE65A00EBE46A /* TestCell.xib */; };
+		1819142F1D1FEF5600EBE46A /* Method3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819142E1D1FEF5600EBE46A /* Method3ViewController.m */; };
+		181914361D1FF1A200EBE46A /* Method3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181914341D1FF1A200EBE46A /* Method3TableViewCell.m */; };
+		181914371D1FF1A200EBE46A /* Method3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181914351D1FF1A200EBE46A /* Method3TableViewCell.xib */; };
+		223C5A191D2A902400EB7AB7 /* DCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A181D2A902400EB7AB7 /* DCBaseViewController.m */; };
+		223C5A1C1D2A90BA00EB7AB7 /* DCCaculateCellHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A1B1D2A90BA00EB7AB7 /* DCCaculateCellHeightViewController.m */; };
+		223C5A1F1D2A90D300EB7AB7 /* DCAutomaticMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A1E1D2A90D300EB7AB7 /* DCAutomaticMasonryViewController.m */; };
+		223C5A221D2A90F500EB7AB7 /* DCAutomaticAutolayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A211D2A90F500EB7AB7 /* DCAutomaticAutolayoutViewController.m */; };
+		223C5A251D2A911F00EB7AB7 /* DCConstraintsAutolayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A241D2A911F00EB7AB7 /* DCConstraintsAutolayoutViewController.m */; };
+		223C5A281D2A913400EB7AB7 /* DCConstraintsMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A271D2A913400EB7AB7 /* DCConstraintsMasonryViewController.m */; };
+		223C5A2B1D2A915E00EB7AB7 /* DCConstraintsMasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A2A1D2A915E00EB7AB7 /* DCConstraintsMasonryCell.m */; };
+		223C5A2F1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A2D1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.m */; };
+		223C5A301D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223C5A2E1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.xib */; };
+		223C5A331D2A91A600EB7AB7 /* DCAutomaticMasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A321D2A91A600EB7AB7 /* DCAutomaticMasonryCell.m */; };
+		223C5A371D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A351D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.m */; };
+		223C5A381D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223C5A361D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.xib */; };
+		223C5A3A1D2A920800EB7AB7 /* TODO.md in Sources */ = {isa = PBXBuildFile; fileRef = 223C5A391D2A920800EB7AB7 /* TODO.md */; };
+		FBF6270837E13ACDFA91EF56 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB3B85F421EEF7887ABA549 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +78,32 @@
 		181914331D1FF1A200EBE46A /* Method3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Method3TableViewCell.h; sourceTree = "<group>"; };
 		181914341D1FF1A200EBE46A /* Method3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Method3TableViewCell.m; sourceTree = "<group>"; };
 		181914351D1FF1A200EBE46A /* Method3TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Method3TableViewCell.xib; sourceTree = "<group>"; };
+		223C5A171D2A902400EB7AB7 /* DCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBaseViewController.h; sourceTree = "<group>"; };
+		223C5A181D2A902400EB7AB7 /* DCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseViewController.m; sourceTree = "<group>"; };
+		223C5A1A1D2A90BA00EB7AB7 /* DCCaculateCellHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCaculateCellHeightViewController.h; sourceTree = "<group>"; };
+		223C5A1B1D2A90BA00EB7AB7 /* DCCaculateCellHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCaculateCellHeightViewController.m; sourceTree = "<group>"; };
+		223C5A1D1D2A90D300EB7AB7 /* DCAutomaticMasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAutomaticMasonryViewController.h; sourceTree = "<group>"; };
+		223C5A1E1D2A90D300EB7AB7 /* DCAutomaticMasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAutomaticMasonryViewController.m; sourceTree = "<group>"; };
+		223C5A201D2A90F500EB7AB7 /* DCAutomaticAutolayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAutomaticAutolayoutViewController.h; sourceTree = "<group>"; };
+		223C5A211D2A90F500EB7AB7 /* DCAutomaticAutolayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAutomaticAutolayoutViewController.m; sourceTree = "<group>"; };
+		223C5A231D2A911F00EB7AB7 /* DCConstraintsAutolayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCConstraintsAutolayoutViewController.h; sourceTree = "<group>"; };
+		223C5A241D2A911F00EB7AB7 /* DCConstraintsAutolayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCConstraintsAutolayoutViewController.m; sourceTree = "<group>"; };
+		223C5A261D2A913400EB7AB7 /* DCConstraintsMasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCConstraintsMasonryViewController.h; sourceTree = "<group>"; };
+		223C5A271D2A913400EB7AB7 /* DCConstraintsMasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCConstraintsMasonryViewController.m; sourceTree = "<group>"; };
+		223C5A291D2A915E00EB7AB7 /* DCConstraintsMasonryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCConstraintsMasonryCell.h; sourceTree = "<group>"; };
+		223C5A2A1D2A915E00EB7AB7 /* DCConstraintsMasonryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCConstraintsMasonryCell.m; sourceTree = "<group>"; };
+		223C5A2C1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCConstraintsAutolayoutCell.h; sourceTree = "<group>"; };
+		223C5A2D1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCConstraintsAutolayoutCell.m; sourceTree = "<group>"; };
+		223C5A2E1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCConstraintsAutolayoutCell.xib; sourceTree = "<group>"; };
+		223C5A311D2A91A600EB7AB7 /* DCAutomaticMasonryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAutomaticMasonryCell.h; sourceTree = "<group>"; };
+		223C5A321D2A91A600EB7AB7 /* DCAutomaticMasonryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAutomaticMasonryCell.m; sourceTree = "<group>"; };
+		223C5A341D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAutomaticAutolayoutCell.h; sourceTree = "<group>"; };
+		223C5A351D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAutomaticAutolayoutCell.m; sourceTree = "<group>"; };
+		223C5A361D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCAutomaticAutolayoutCell.xib; sourceTree = "<group>"; };
+		223C5A391D2A920800EB7AB7 /* TODO.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		404BC2FCC5BA3D886ED4E376 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8EB3B85F421EEF7887ABA549 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5380B6A83CE1498D2A40298 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF6270837E13ACDFA91EF56 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +132,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160AB165CC7D1798C8FE4409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3B85F421EEF7887ABA549 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		181913E91D1FE61600EBE46A = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +147,8 @@
 				1819140E1D1FE61600EBE46A /* DynamicCellHeightDemoTests */,
 				181914191D1FE61600EBE46A /* DynamicCellHeightDemoUITests */,
 				181913F31D1FE61600EBE46A /* Products */,
+				24D241EDF2D639E580BD474B /* Pods */,
+				160AB165CC7D1798C8FE4409 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +165,10 @@
 		181913F41D1FE61600EBE46A /* DynamicCellHeightDemo */ = {
 			isa = PBXGroup;
 			children = (
+				223C5A121D2A900F00EB7AB7 /* Common */,
+				223C59F91D2A8C4E00EB7AB7 /* CaculateCellHeight */,
+				223C59FA1D2A8C4E00EB7AB7 /* TableViewAutomaticDimension */,
+				223C59FB1D2A8C4E00EB7AB7 /* UseConstraints */,
 				181914331D1FF1A200EBE46A /* Method3TableViewCell.h */,
 				181914341D1FF1A200EBE46A /* Method3TableViewCell.m */,
 				181914351D1FF1A200EBE46A /* Method3TableViewCell.xib */,
@@ -139,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				181913F61D1FE61600EBE46A /* main.m */,
+				223C5A391D2A920800EB7AB7 /* TODO.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +217,225 @@
 			path = DynamicCellHeightDemoUITests;
 			sourceTree = "<group>";
 		};
+		223C59F91D2A8C4E00EB7AB7 /* CaculateCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A1A1D2A90BA00EB7AB7 /* DCCaculateCellHeightViewController.h */,
+				223C5A1B1D2A90BA00EB7AB7 /* DCCaculateCellHeightViewController.m */,
+			);
+			path = CaculateCellHeight;
+			sourceTree = "<group>";
+		};
+		223C59FA1D2A8C4E00EB7AB7 /* TableViewAutomaticDimension */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A061D2A8CF900EB7AB7 /* Autolayout */,
+				223C5A0A1D2A8CF900EB7AB7 /* Masonry */,
+			);
+			path = TableViewAutomaticDimension;
+			sourceTree = "<group>";
+		};
+		223C59FB1D2A8C4E00EB7AB7 /* UseConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				223C59FC1D2A8C7900EB7AB7 /* Autolayout */,
+				223C59FD1D2A8C7900EB7AB7 /* Masonry */,
+			);
+			path = UseConstraints;
+			sourceTree = "<group>";
+		};
+		223C59FC1D2A8C7900EB7AB7 /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A001D2A8CE700EB7AB7 /* Controller */,
+				223C5A011D2A8CE700EB7AB7 /* Model */,
+				223C5A021D2A8CE700EB7AB7 /* View */,
+			);
+			path = Autolayout;
+			sourceTree = "<group>";
+		};
+		223C59FD1D2A8C7900EB7AB7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A031D2A8CEE00EB7AB7 /* Controller */,
+				223C5A041D2A8CEE00EB7AB7 /* Model */,
+				223C5A051D2A8CEE00EB7AB7 /* View */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		223C5A001D2A8CE700EB7AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A231D2A911F00EB7AB7 /* DCConstraintsAutolayoutViewController.h */,
+				223C5A241D2A911F00EB7AB7 /* DCConstraintsAutolayoutViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		223C5A011D2A8CE700EB7AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		223C5A021D2A8CE700EB7AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A2C1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.h */,
+				223C5A2D1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.m */,
+				223C5A2E1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		223C5A031D2A8CEE00EB7AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A261D2A913400EB7AB7 /* DCConstraintsMasonryViewController.h */,
+				223C5A271D2A913400EB7AB7 /* DCConstraintsMasonryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		223C5A041D2A8CEE00EB7AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		223C5A051D2A8CEE00EB7AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A291D2A915E00EB7AB7 /* DCConstraintsMasonryCell.h */,
+				223C5A2A1D2A915E00EB7AB7 /* DCConstraintsMasonryCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		223C5A061D2A8CF900EB7AB7 /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A071D2A8CF900EB7AB7 /* Controller */,
+				223C5A081D2A8CF900EB7AB7 /* Model */,
+				223C5A091D2A8CF900EB7AB7 /* View */,
+			);
+			path = Autolayout;
+			sourceTree = "<group>";
+		};
+		223C5A071D2A8CF900EB7AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A201D2A90F500EB7AB7 /* DCAutomaticAutolayoutViewController.h */,
+				223C5A211D2A90F500EB7AB7 /* DCAutomaticAutolayoutViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		223C5A081D2A8CF900EB7AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		223C5A091D2A8CF900EB7AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A341D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.h */,
+				223C5A351D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.m */,
+				223C5A361D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		223C5A0A1D2A8CF900EB7AB7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A0B1D2A8CF900EB7AB7 /* Controller */,
+				223C5A0C1D2A8CF900EB7AB7 /* Model */,
+				223C5A0D1D2A8CF900EB7AB7 /* View */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		223C5A0B1D2A8CF900EB7AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A1D1D2A90D300EB7AB7 /* DCAutomaticMasonryViewController.h */,
+				223C5A1E1D2A90D300EB7AB7 /* DCAutomaticMasonryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		223C5A0C1D2A8CF900EB7AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		223C5A0D1D2A8CF900EB7AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A311D2A91A600EB7AB7 /* DCAutomaticMasonryCell.h */,
+				223C5A321D2A91A600EB7AB7 /* DCAutomaticMasonryCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		223C5A121D2A900F00EB7AB7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A131D2A900F00EB7AB7 /* Controller */,
+				223C5A151D2A900F00EB7AB7 /* Model */,
+				223C5A161D2A900F00EB7AB7 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		223C5A131D2A900F00EB7AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A141D2A900F00EB7AB7 /* DCBaseViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		223C5A141D2A900F00EB7AB7 /* DCBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				223C5A171D2A902400EB7AB7 /* DCBaseViewController.h */,
+				223C5A181D2A902400EB7AB7 /* DCBaseViewController.m */,
+			);
+			path = DCBaseViewController;
+			sourceTree = "<group>";
+		};
+		223C5A151D2A900F00EB7AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		223C5A161D2A900F00EB7AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24D241EDF2D639E580BD474B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5380B6A83CE1498D2A40298 /* Pods.debug.xcconfig */,
+				404BC2FCC5BA3D886ED4E376 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1819141F1D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemo" */;
 			buildPhases = (
+				11427A080DE9E8E4343C1385 /* Check Pods Manifest.lock */,
 				181913EE1D1FE61600EBE46A /* Sources */,
 				181913EF1D1FE61600EBE46A /* Frameworks */,
 				181913F01D1FE61600EBE46A /* Resources */,
+				B777B17501658FBEAEE6F737 /* Embed Pods Frameworks */,
+				0ABC2A5A52B2C5EE71FF3449 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,11 +542,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223C5A301D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.xib in Resources */,
 				181914371D1FF1A200EBE46A /* Method3TableViewCell.xib in Resources */,
 				181914051D1FE61600EBE46A /* LaunchScreen.storyboard in Resources */,
 				1819142C1D1FE65A00EBE46A /* TestCell.xib in Resources */,
 				181914021D1FE61600EBE46A /* Assets.xcassets in Resources */,
 				181914001D1FE61600EBE46A /* Main.storyboard in Resources */,
+				223C5A381D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +568,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ABC2A5A52B2C5EE71FF3449 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11427A080DE9E8E4343C1385 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B777B17501658FBEAEE6F737 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181913EE1D1FE61600EBE46A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -295,9 +623,20 @@
 			files = (
 				1819142F1D1FEF5600EBE46A /* Method3ViewController.m in Sources */,
 				181913FD1D1FE61600EBE46A /* ViewController.m in Sources */,
+				223C5A191D2A902400EB7AB7 /* DCBaseViewController.m in Sources */,
+				223C5A1F1D2A90D300EB7AB7 /* DCAutomaticMasonryViewController.m in Sources */,
+				223C5A251D2A911F00EB7AB7 /* DCConstraintsAutolayoutViewController.m in Sources */,
 				181914361D1FF1A200EBE46A /* Method3TableViewCell.m in Sources */,
+				223C5A331D2A91A600EB7AB7 /* DCAutomaticMasonryCell.m in Sources */,
+				223C5A281D2A913400EB7AB7 /* DCConstraintsMasonryViewController.m in Sources */,
 				1819142B1D1FE65A00EBE46A /* TestCell.m in Sources */,
+				223C5A221D2A90F500EB7AB7 /* DCAutomaticAutolayoutViewController.m in Sources */,
+				223C5A3A1D2A920800EB7AB7 /* TODO.md in Sources */,
 				181913FA1D1FE61600EBE46A /* AppDelegate.m in Sources */,
+				223C5A371D2A91C500EB7AB7 /* DCAutomaticAutolayoutCell.m in Sources */,
+				223C5A2F1D2A918000EB7AB7 /* DCConstraintsAutolayoutCell.m in Sources */,
+				223C5A1C1D2A90BA00EB7AB7 /* DCCaculateCellHeightViewController.m in Sources */,
+				223C5A2B1D2A915E00EB7AB7 /* DCConstraintsMasonryCell.m in Sources */,
 				181913F71D1FE61600EBE46A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +774,7 @@
 		};
 		181914201D1FE61600EBE46A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5380B6A83CE1498D2A40298 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DynamicCellHeightDemo/Info.plist;
@@ -446,6 +786,7 @@
 		};
 		181914211D1FE61600EBE46A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404BC2FCC5BA3D886ED4E376 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DynamicCellHeightDemo/Info.plist;
@@ -522,6 +863,7 @@
 				181914211D1FE61600EBE46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181914221D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +872,7 @@
 				181914241D1FE61600EBE46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181914251D1FE61600EBE46A /* Build configuration list for PBXNativeTarget "DynamicCellHeightDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +881,7 @@
 				181914271D1FE61600EBE46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

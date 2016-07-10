@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -16,7 +16,6 @@
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfq-X5-nvv">
                         <rect key="frame" x="8" y="8" width="285" height="192"/>
-                        <animations/>
                         <color key="backgroundColor" red="1" green="0.98351757881311641" blue="0.08349495323182643" alpha="1" colorSpace="calibratedRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -24,7 +23,6 @@
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJp-2s-TAP">
                         <rect key="frame" x="8" y="208" width="120" height="111"/>
-                        <animations/>
                         <color key="backgroundColor" red="0.34171062949999997" green="0.57905153659999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="120" id="Jv3-6f-wWP"/>
@@ -32,7 +30,6 @@
                         </constraints>
                     </view>
                 </subviews>
-                <animations/>
                 <constraints>
                     <constraint firstItem="EJp-2s-TAP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="6UJ-Cb-714"/>
                     <constraint firstItem="bfq-X5-nvv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="E5q-Gf-ra7"/>
@@ -42,7 +39,6 @@
                     <constraint firstItem="EJp-2s-TAP" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="wGD-Wi-5qu"/>
                 </constraints>
             </tableViewCellContentView>
-            <animations/>
             <connections>
                 <outlet property="bottomCub" destination="EJp-2s-TAP" id="YhU-1r-VyP"/>
                 <outlet property="longLabel" destination="bfq-X5-nvv" id="REu-cw-0WU"/>

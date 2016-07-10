@@ -15,7 +15,7 @@
 
 @property (nonatomic,copy) NSArray *testTitleArray;
 
-
+@property (nonatomic,strong) NSArray *destinationClassArray;
 
 @end
 
