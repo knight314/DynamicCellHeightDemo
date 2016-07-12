@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DCConstraintsMasonryCell : UITableViewCell
-
++(instancetype)createWithTitle:(NSString *)title inTableView:(UITableView *)tableView;
 @end
